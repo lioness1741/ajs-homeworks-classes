@@ -39,7 +39,7 @@ test('The Zombie must be created with the correct parameters', () => {
   });
 });
   
-  // Check mistakes
+// Check mistakes
   
 test('name check <2', () => {
   expect(() => { createZombie('E', 'Zombie'); }).toThrow('the name must not be shorter than 2 characters!');
