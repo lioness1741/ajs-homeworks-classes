@@ -1,10 +1,9 @@
-import Character from './character.js';
+import Character from './character';
 
 class Bowman extends Character {
   constructor(name, type) {
     super(name, type);
-    this.setValue();
-    
+    this.setValue();    
   }
 }
 

@@ -1,9 +1,9 @@
-import Bowman from './bowman.js';
-import Daemon from './daemon.js';
-import Magician from './magician.js';
-import Swordsman from './swordsman.js';
-import Undead from './undead.js';
-import Zombie from './zombie.js';
+import Bowman from './bowman';
+import Daemon from './daemon';
+import Magician from './magician';
+import Swordsman from './swordsman';
+import Undead from './undead';
+import Zombie from './zombie';
 
 export function createBowman(name, type) {
   return new Bowman(name, type);
